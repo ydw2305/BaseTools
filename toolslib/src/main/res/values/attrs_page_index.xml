@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PagerIndicator">
+        <attr name="circleNum" format="integer"/>
+        <attr name="radius" format="integer"/>
+        <attr name="excircleColor" format="reference|color"/>
+        <attr name="circleColor" format="reference|color"/>
+        <attr name="excircle2Fill" format="boolean"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ <p>Copyright(c) 2017</p>
+  ~ <p>
+  ~ @autor 杨德望
+  ~ @date  ${DATE}
+  ~ @see ${PACKAGE_NAME}
+  ~ </p>
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/colorGray" />
+                    <corners
+                        android:bottomRightRadius="@dimen/dp_10"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@android:color/white" />
+                    <corners
+                             android:bottomRightRadius="@dimen/dp_10"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

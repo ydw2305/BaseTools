@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--棕-->
+    <color name="colorBrown">#99A7B4</color>
+    <!--深灰-->
+    <color name="colorDarkGray">#888888</color>
+    <!--浅黑-->
+    <color name="colorThinBlack">#525252</color>
+    <!--浅黑-->
+    <color name="colorThinBlack01">#A8A8A8</color>
+    <!--深黑-->
+    <color name="colorDarkBlack">#202020</color>
+    <!--灰-->
+    <color name="colorGray">#CCCCCC</color>
+    <!--浅灰-->
+    <color name="colorGray01">#D8D8D8</color>
+    <!--浅灰-->
+    <color name="colorGray02">#E8E8E8</color>
+    <!--浅灰-->
+    <color name="colorThinGray00">#F0EFF5</color>
+    <!--淡灰-->
+    <color name="colorThinGray01">#F8F8F8</color>
+    <!--淡灰-->
+    <color name="colorThinGray02">#E6E6E6</color>
+    <!--蓝-->
+    <color name="colorBlue">#73BDEE</color>
+    <!--蓝-->
+    <color name="colorBlue01">#1296DB</color>
+    <!--蓝-->
+    <color name="colorBlue02">#1B94D9</color>
+    <!--蓝 取消按钮用的颜色-->
+    <color name="colorBlue03">#007aFF</color>
+    <!--蓝-->
+    <color name="colorBlue04">#3897F1</color>
+    <!--蓝-->
+    <color name="colorHalfBlue">#99007aFF</color>
+    <!--淡蓝-->
+    <color name="colorThinBlue">#D0EEFC</color>
+    <!--红-->
+    <color name="colorRed">#FF3B30</color>
+    <!--深红-->
+    <color name="colorDarkRed">#a11233</color>
+    <!--浅红-->
+    <color name="colorThinRed">#FA845C</color>
+    <!--白-->
+    <color name="colorWhite">#FFFFFF</color>
+    <!--白-->
+    <color name="colorThinWhite">#FAFAFA</color>
+    <!--紫-->
+    <color name="colorPurple">#9E8AC7</color>
+    <!--黄-->
+    <color name="colorYellow">#FBC751</color>
+    <!--浅黄-->
+    <color name="colorThinYellow">#FFF1DD</color>
+    <!--橘-->
+    <color name="colorOringe">#FFA935</color>
+    <!--淡橘-->
+    <color name="colorThinOringe">#F0C7AA</color>
+    <!--深绿-->
+    <color name="colorHoloGreen">#53BBB4</color>
+    <!--深绿-->
+    <color name="colorDarkGreen">#009688</color>
+    <!--绿-->
+    <color name="colorGreen">#7ABD29</color>
+    <!--透明-->
+    <color name="colorNone">#00000000</color>
+    <!--半透明-->
+    <color name="colorHalfTrans">#99000000</color>
+    <!--半透明-->
+    <color name="colorHalfTransGray">#50000000</color>
+    <!--半透明白-->
+    <color name="colorHalfTransWhite">#A0ffffff</color>
+    <!--主色调-->
+    <color name="mainStyleColor">#50CCC2</color>
+    <!--标题栏色调-->
+    <color name="mainTitleColor">#FAFAFA</color>
+
+
+    <!-- it's umeng need color -->
+    <color name="umeng_white">#ffffff</color>
+    <color name="umeng_blue">#0086DC</color>
+    <color name="umeng_black">#000000</color>
+    <color name="umeng_background">#D4E0E5</color>
+    <color name="umeng_text_color">#575A5C</color>
+    <color name="umeng_divide">#C3C6C9</color>
+
+    <!-- slide date need color -->
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+
+
+    <!-- recyclerView headview and footveiw need -->
+    <color name="color_ff">#F0F0F0</color>
+    <color name="color_00">#8A000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray">#666666</color>
+    <color name="dialog_title">#ffff0000</color>
+    <color name="common_background">#f5f3f0</color>
+    <color name="txt_color_gray_3">#cbc4c6</color>
+    <color name="pink">#ff5d65</color>
+    <color name="brown">#cccccc</color>
+    <color name="pale_pink">#cbc4c6</color>
+    <color name="divider">#e8e3e3</color>
+    <color name="tabcolor">#6e686a</color>
+    <!-- [begin]crop -->
+
+    <color name="crop_bg">#D5D5D5</color>
+
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <!-- [end]crop -->
+
+    <!--Theme-->
+    <color name="red">#FF6347</color>
+    <color name="dark_red">#F4511E</color>
+    <color name="accent_red">#FF5722</color>
+    <!--Theme-->
+
+    <color name="blue">#2196F3</color>
+    <color name="dark_blue">#1976D2</color>
+    <color name="accent_blue">#448AFF</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="light_grey">#ffbebebe</color>
+
+
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+
+</resources>

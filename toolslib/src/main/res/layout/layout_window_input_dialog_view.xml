@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ <p>Copyright(c) 2017</p>
+  ~ <p>
+  ~ @autor 杨德望
+  ~ @date  ${DATE}
+  ~ @see ${PACKAGE_NAME}
+  ~ </p>
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_alert_white_round">
+
+    <TextView
+        android:id="@+id/tv_winInput_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:padding="@dimen/dp_6"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_18" />
+
+    <TextView
+        android:id="@+id/tv_winInput_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_winInput_title"
+        android:layout_marginEnd="@dimen/dp_18"
+        android:layout_marginLeft="@dimen/dp_18"
+        android:layout_marginRight="@dimen/dp_18"
+        android:layout_marginStart="@dimen/dp_18"
+        android:padding="@dimen/dp_4"
+        android:text=""
+        android:textColor="@color/colorThinBlack"
+        android:textSize="@dimen/text_14" />
+
+    <EditText
+        android:id="@+id/ed_winInput_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_winInput_msg"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_8"
+        android:gravity="center"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_16" />
+
+    <View
+        android:id="@+id/line_winInput_btnTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_01"
+        android:layout_below="@+id/ed_winInput_msg"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorDarkGray" />
+
+    <TextView
+        android:id="@+id/tv_winInput_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/line_winInput_btnCenter"
+        android:layout_alignTop="@+id/line_winInput_btnCenter"
+        android:layout_toLeftOf="@+id/line_winInput_btnCenter"
+        android:layout_toStartOf="@+id/line_winInput_btnCenter"
+        android:background="@drawable/press_bg_white2grey_round_bottom_left"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_14" />
+
+    <View
+        android:id="@+id/line_winInput_btnCenter"
+        android:layout_width="@dimen/dp_01"
+        android:layout_height="@dimen/dp_46"
+        android:layout_below="@+id/line_winInput_btnTop"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorDarkGray" />
+
+    <TextView
+        android:id="@+id/tv_winInput_sure"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/line_winInput_btnCenter"
+        android:layout_alignTop="@+id/line_winInput_btnCenter"
+        android:layout_toEndOf="@+id/line_winInput_btnCenter"
+        android:layout_toRightOf="@+id/line_winInput_btnCenter"
+        android:background="@drawable/press_bg_white2grey_round_bottom_right"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="@color/colorBlue03"
+        android:textSize="@dimen/text_14" />
+
+</RelativeLayout>

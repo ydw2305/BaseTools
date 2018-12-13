@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ~ <p>Copyright(c) 2017</p>
+  ~ <p>
+  ~ @autor 杨德望
+  ~ @date  ${DATE}
+  ~ @see ${PACKAGE_NAME}
+  ~ </p>
+  ~
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/colorRed" />
+    <item  android:color="@color/colorBlue03" />
+</selector>

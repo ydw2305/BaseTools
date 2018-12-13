@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- show popupWindow in bottom -->
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/bp_bottom_bg_in</item>
+        <item name="android:windowExitAnimation">@anim/bp_bottom_bg_out</item>
+    </style>
+
+
+    <style name="TransparentTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowIsTranslucent">true</item>
+	</style>
+    <style name="TransparentTheme.Slide">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="TransparentTheme.Full.Slide">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="TransparentTheme.Full">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="BlueProgressTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:progressBarStyle">@style/MyProgressBar</item>
+    </style>
+
+    <style name="MyProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:progressDrawable">@drawable/bg_progress_medium</item>
+        <item name="android:indeterminateDrawable">@drawable/bg_progress_medium</item>
+    </style>
+</resources>
